@@ -9,7 +9,6 @@ for (let i = 1; i <= 12; i++) {
   console.log(`${i} times ${choice} = ${i * choice}`);
 }
 
-let counter = 1;
 while (counter <= 12) {
   console.log(`${counter} times ${choice} = ${counter * choice}`);
   counter++;
@@ -45,4 +44,19 @@ while (number < 1000) {
   if (number % 3 === 0 && number % 4 === 0) {
     console.log(number);
   }
+}
+
+function changeToString(number) {
+  let stringified = number.toString();
+
+  console.log(typeof stringified);
+}
+
+changeToString(107048937309);
+
+let counter = 10;
+
+while (counter > 1) {
+  counter++;
+  console.log(counter);
 }
