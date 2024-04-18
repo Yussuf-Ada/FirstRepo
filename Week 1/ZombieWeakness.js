@@ -15,7 +15,7 @@ function ZombieGame() {
 
   console.log(zombieWeakness);
   console.log("You have encountered a zombie and should  prepare to fight!\n");
-  console.log("Here are a list of weapons to choose from!\n ");
+  console.log("Here's a list of weapons to choose from!\n ");
   console.log(possibleWeapons);
 
   let selectedWeapon = readline.question("Pick a weapon now! \n");
@@ -28,5 +28,4 @@ function ZombieGame() {
     );
   }
 }
-
 ZombieGame();
