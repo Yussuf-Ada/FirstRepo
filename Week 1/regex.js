@@ -6,7 +6,7 @@ function passwordChecker() {
   let userPass = readline.question("Please enter a strong password \n");
   while (true) {
     if (passwordConditions.test(userPass)) {
-      console.log("Great your password has been accepted ");
+      console.log("Great, your password has been accepted ");
       break;
     } else {
       console.log(
